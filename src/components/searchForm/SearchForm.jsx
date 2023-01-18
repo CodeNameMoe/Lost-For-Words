@@ -1,7 +1,9 @@
 import React from "react";
+import { FaSearch } from "react-icons/fa";
+import "./SearchForm.css";
 
 function SearchForm() {
-  return <div>SearchForm</div>;
+  return <div className=""></div>;
 }
 
 export default SearchForm;

@@ -17,3 +17,12 @@
 .search-form-elem .form-control::placeholder {
   opacity: 0.9;
 }
+
+@media screen and (max-width: 523px) {
+  .search-form-elem .form-control {
+    max-width: 200px;
+  }
+  .search-form-elem .form-control::placeholder {
+    opacity: 0;
+  }
+}

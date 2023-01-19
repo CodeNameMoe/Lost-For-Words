@@ -15,20 +15,19 @@ const About = () => {
             <img src={aboutImg} alt="" />
           </div>
           <div className="about-text">
-            <h2 className="about-title fs-26 ls-1">About BookHub</h2>
+            <h2 className="about-title fs-26 ls-1">About Lost For Words</h2>
             <p className="fs-17">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              dignissimos consequuntur vero commodi provident maiores, iusto
-              atque corrupti voluptate vel sequi consectetur unde aliquam
-              corporis saepe animi non, tempora reiciendis molestias sed
-              laudantium dolores. Assumenda aperiam fuga quo voluptate commodi
-              ullam aliquam expedita voluptas delectus.
+              Welcome to Lost For Words, the ultimate destination for book
+              lovers everywhere. Our website is dedicated to helping you find
+              your next favorite read, whether you're looking for a best-selling
+              novel, a classic work of literature, or a niche title that you've
+              never heard of before.
             </p>
             <p className="fs-17">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-              dicta, possimus inventore eveniet atque voluptatibus repellendus
-              aspernatur illo aliquam dignissimos illum. Commodi, porro omnis
-              dolore amet neque modi quas eum!
+              So if you're looking for your next great read, look no further
+              than Lost For Words. We're here to help you find the books you'll
+              love, and make your reading experience as enjoyable and rewarding
+              as possible.
             </p>
           </div>
         </div>

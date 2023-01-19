@@ -10,13 +10,12 @@ function Header() {
         <Navbar />
         <div className="header-content flex flex-c text-center text-white">
           <h2 className="header-title text-capitalize">
-            Find your book of choice
+            Find your next favorite read with us
           </h2>
           <br />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsam
-            adipisci quae reprehenderit doloribus! Nesciunt laboriosam animi
-            sapiente ab quaerat.
+            Unlock the door to a world of knowledge and imagination with just a
+            simple search.
           </p>
           <SearchForm />
         </div>

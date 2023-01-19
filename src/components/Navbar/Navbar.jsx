@@ -8,6 +8,10 @@ function Navbar() {
   function handleNavbar() {
     setToggleMenu(!toggleMenu);
   }
+
+  function closeNav() {
+    setToggleMenu(!toggleMenu);
+  }
   return (
     <nav className="navbar" id="navbar">
       <div className="container navbar-content flex">
@@ -37,6 +41,7 @@ function Navbar() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link
+                onClick={closeNav}
                 to="book"
                 className="nav-link text-uppercase text-white fs-22 fw-6 ls-1"
               >
@@ -45,6 +50,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
+                onClick={closeNav}
                 to="about"
                 className="nav-link text-uppercase text-white fs-22 fw-6 ls-1"
               >
